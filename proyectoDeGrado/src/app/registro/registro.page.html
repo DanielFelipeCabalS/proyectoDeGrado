@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="fondo">Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Registro</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label position="fixed">Número de documento de identidad</ion-label>
+          <ion-input type="number"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="fixed">Nombres</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="fixed">Apellidos</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="fixed">Correo</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="fixed">Contraseña</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="fixed">Confirmar contraseña</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      </ion-list>
+
+    </ion-card-content>
+  </ion-card>
+
+  <div align="center">
+
+    <br><br>
+    
+    <ion-button color="primary" (click)=home()>Registrarse</ion-button>
+    <ion-button color="primary" href="/home">Volver</ion-button>
+  </div>
+
+  <div align="center">
+    <br><br>
+    <a href="">Terminos y condiciones</a>
+  </div>
+  
+
+
+</ion-content>

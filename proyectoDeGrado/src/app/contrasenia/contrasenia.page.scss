@@ -1,0 +1,16 @@
+#fondo {
+  text-align: center;
+  position: relative;
+  color: aliceblue;
+  background: #1057a5;
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  transform: translateY(-50%);
+  background: url(../image/logo.jpeg) 50% 100% no-repeat;
+}
